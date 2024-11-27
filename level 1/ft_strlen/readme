@@ -1,0 +1,12 @@
+Nombre de la tarea: ft_strlen
+Archivos esperados: ft_strlen.c
+Funciones permitidas: ninguna especificada
+Escribe una función que retorne la longitud de una cadena de caracteres.
+
+Tu función debe declararse de la siguiente manera:
+
+int	ft_strlen(char *str);
+
+¿Qué hace esta función?
+La función ft_strlen calcula y retorna la longitud de una cadena de caracteres, es decir, el número de caracteres que contiene antes del carácter nulo ('\0') que marca el final de la cadena.
+

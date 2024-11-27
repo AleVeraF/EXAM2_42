@@ -1,0 +1,29 @@
+Nombre de la tarea: repeat_alpha
+Archivos esperados: repeat_alpha.c
+Funciones permitidas: write
+Escribe un programa llamado repeat_alpha que tome una cadena de texto y muestre cada carácter alfabético repitiéndolo tantas veces como su posición en el alfabeto, seguido de un salto de línea.
+
+'a' se convierte en 'a', 'b' se convierte en 'bb', 'e' se convierte en 'eeeee', etc.
+Las mayúsculas y minúsculas mantienen su formato original (no se convierten).
+Si el número de argumentos no es exactamente 1, simplemente muestra un salto de línea.
+
+
+Ejemplo conceptual de lo que tienes que hacer
+Recibir y validar la entrada:
+
+Verifica si el programa recibió exactamente un argumento (además del nombre del programa).
+Si no es así, simplemente imprime un salto de línea (\n) y termina.
+Procesar la cadena:
+
+Recorre cada carácter del argumento.
+Si el carácter es una letra (mayúscula o minúscula), calcula su posición en el alfabeto:
+Para 'a' a 'z', la posición es 1 para 'a', 2 para 'b', ..., 26 para 'z'.
+Para 'A' a 'Z', la posición es igual: 1 para 'A', 2 para 'B', ..., 26 para 'Z'.
+Repite el carácter tantas veces como su posición en el alfabeto.
+Mostrar el resultado:
+
+Imprime cada carácter procesado según la regla anterior.
+Finaliza con un salto de línea (\n).
+Caracteres no alfabéticos:
+
+Si el carácter no es una letra (como números, símbolos o espacios), simplemente imprímelo sin cambios.

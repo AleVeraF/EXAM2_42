@@ -1,0 +1,11 @@
+Nombre de la tarea: ft_swap
+Archivos esperados: ft_swap.c
+Funciones permitidas: ninguna especificada
+Escribe una función que intercambie el contenido de dos enteros cuyas direcciones se pasan como parámetros.
+
+Tu función debe declararse de la siguiente manera:
+
+void	ft_swap(int *a, int *b);
+
+¿Qué hace esta función?
+La función ft_swap intercambia los valores de dos variables enteras (int) utilizando punteros. Esto significa que las direcciones de memoria de las variables son recibidas como argumentos y los valores almacenados en esas direcciones se intercambian directamente.

@@ -1,0 +1,10 @@
+Nombre del ejercicio: rot_13
+Archivos esperados: rot_13.c
+Funciones permitidas: write
+Escribe un programa que reciba una cadena de texto y la muestre, reemplazando cada una de sus letras por la letra que se encuentra 13 posiciones adelante en el orden alfabético.
+
+La letra 'z' se convierte en 'm' y la letra 'Z' se convierte en 'M'. El caso de las letras no se ve afectado.
+
+La salida debe ir seguida de un salto de línea.
+
+Si el número de argumentos no es 1, el programa debe mostrar solo un salto de línea.

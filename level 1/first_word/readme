@@ -1,0 +1,8 @@
+Nombre de la tarea: first_word
+Archivos esperados: first_word.c
+Funciones permitidas: write
+Escribe un programa que tome una cadena de texto y muestre su primera palabra, seguida de un salto de línea.
+
+Una palabra es una sección de la cadena delimitada por espacios, tabulaciones, o por el inicio/fin de la cadena.
+
+Si el número de parámetros no es 1, o si no hay palabras, simplemente muestra un salto de línea.
