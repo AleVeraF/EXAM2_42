@@ -1,0 +1,4 @@
+Comportamiento
+La función recorre str1 y cuenta cuántos caracteres consecutivos no están en str2.
+Se detiene al encontrar el primer carácter de str1 que también está en str2.
+Si no encuentra ningún carácter de str2 en str1, devuelve la longitud completa de str1.

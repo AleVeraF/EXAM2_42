@@ -1,0 +1,24 @@
+Nombre del ejercicio: alpha_mirror
+Archivos esperados: alpha_mirror.c
+Funciones permitidas: write
+Escribe un programa llamado alpha_mirror que tome una cadena y muestre esa cadena después de reemplazar cada carácter alfabético por su carácter alfabético opuesto, seguido de un salto de línea.
+
+Por ejemplo:
+
+'a' se convierte en 'z', 'Z' se convierte en 'A'
+'d' se convierte en 'w', 'M' se convierte en 'N'
+Y así sucesivamente.
+
+La mayúscula o minúscula del carácter no se cambia.
+
+Si el número de argumentos no es 1, el programa solo debe mostrar un salto de línea.
+
+Examples:
+
+$>./alpha_mirror "abc"
+zyx
+$>./alpha_mirror "My horse is Amazing." | cat -e
+Nb slihv rh Znzarmt.$
+$>./alpha_mirror | cat -e
+$
+$>

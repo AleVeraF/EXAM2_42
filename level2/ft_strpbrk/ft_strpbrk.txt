@@ -1,0 +1,1 @@
+Est función devuelve un puntero a la primera coincidencia de s2 en s1

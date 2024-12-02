@@ -1,0 +1,4 @@
+Esta función va comparano dos cadenas,
+si ambas son exactamente iguales, devuelve la resta entre las dos cadenas,
+y debería dar 0. En el caso de que sean distintas,
+devuelve la resta de los caractares que no son iguales
