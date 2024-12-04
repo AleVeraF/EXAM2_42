@@ -1,0 +1,12 @@
+Nombre de la tarea: rev_wstr
+Archivos esperados: rev_wstr.c
+Funciones permitidas: write, malloc, free
+Escribe un programa que tome una cadena como parámetro y escriba sus palabras en orden inverso.
+
+Una "palabra" es una parte de la cadena delimitada por espacios y/o tabulaciones, o por el inicio/final de la cadena.
+
+Si el número de parámetros es diferente de 1, el programa mostrará '\n'.
+
+En los parámetros que se van a probar, no habrá espacios "adicionales" (es decir, no habrá espacios adicionales al principio o al final de la cadena, y las palabras siempre estarán separadas por exactamente un espacio).
+
+Ejemplos:

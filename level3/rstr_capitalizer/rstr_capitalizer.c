@@ -11,12 +11,12 @@ void	rstr_capitalizer(char *str)
 		i++;
 	}
 	i = 0;
-	if ((str[0] >= 'a' && str[0] <= 'z') && (str[1] == ' ' || str[1] == '\t'))
+	/*if ((str[0] >= 'a' && str[0] <= 'z') && (str[1] == ' ' || str[1] == '\t'))
 	{
 		str[0] = str[0] - 32;
 		write (1, &str[0], 1);
 		i++;
-	}
+	}*/
 
 	while(str[i] != '\0')
 	{
