@@ -1,24 +1,32 @@
+#include <stdio.h>
 #include <unistd.h>
-
-int main (int argc, char *argv[])
+size_t ft_strlen(char *str)
 {
-	int i = 0;
-
-	int j;
-
-	if (argc == 2)
+    size_t  i;
+    i = 0;
+    while(str[i]!='\0')
+        i++;
+    return(i);
+}
+int main(int ac, char *av[])
+{
+	int end;
+	int start;
+	if (ac == 2)
 	{
-		while (argv[1][i])
-			i++;
-		while (argv[1][i] != ' ' && argv[1][i] != '\t')
-			i--;
-		j = i + 1;
-		while (argv[1][j] != '\0')
+		end = ft_strlen(av[1]) - 1;
+		while (end >= 0 && av[1][end] == ' ' || av[1][end] == '\t')
+			end--;
+		start = end;
+		while (start >= 0 && av[1][start] != ' ' && av[1][start] != '\t')
+			start--;
+		start++;
+		while (start <= end)
 		{
-			write(1, &argv[1][j], 1);
-			j++;
+			write(1, &av[1][start], 1);
+			start++;
 		}
 	}
-	write (1, "\n", 1);
+	write(1, "\n", 1);
 	return (0);
 }
