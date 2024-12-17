@@ -4,7 +4,7 @@
 
 int main (int argc, char *argv[])
 {
-	if (argc == 3 && argv[1] > 0 && argv[2] > 0 && argv[1] != argv[2])
+	if (argc == 3 && argv[1] > 0 && argv[2] > 0 && atoi(argv[1]) != atoi(argv[2]))
 	{
 		int	div = 2147483647;
 
